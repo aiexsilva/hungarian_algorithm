@@ -4,7 +4,7 @@
 
 The project includes detailed doxygen generated documentation for ease of use and understanding.
 
-# key features
+## key features
 
   - Efficient implementation of the hungarian algorithm;
   - Maximum sum calculation;
@@ -13,7 +13,7 @@ The project includes detailed doxygen generated documentation for ease of use an
   - Clear, step-by-step breakdown of the algorithm;
   - Doxygen documentation.
 
-# how to use
+## how to use
 
   1. Compile the code using any c compiler.
   2. In order to try different matrices input the desired matrix in the 'mat.txt' file and modify the rows and columns parameters to fit your matrix.
