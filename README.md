@@ -6,17 +6,17 @@ The project includes detailed doxygen generated documentation for ease of use an
 </p>
 
 ## Key features
-<p align="justify">
+
   - Efficient implementation of the hungarian algorithm;
   - Maximum sum calculation;
   - Ability to add or remove rows and columns dynamically;
   - Works with any matrices;
   - Clear, step-by-step breakdown of the algorithm;
   - Doxygen documentation.
-</p>
+
 
 ## How to use
-<p align="justify">
+
   1. Compile the code using any c compiler.
   2. In order to try different matrices input the desired matrix in the 'mat.txt' file and modify the rows and columns parameters to fit your matrix.
 
@@ -29,5 +29,5 @@ cols:2
 ```
 
 - The matrix should be comma-separated and formatted as shown.
-</p>
+
 
