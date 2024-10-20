@@ -1,0 +1,85 @@
+\doxysection{Node Struct Reference}
+\hypertarget{struct_node}{}\label{struct_node}\index{Node@{Node}}
+
+
+node structure for linked list  
+
+
+\doxysubsubsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{struct_node_aa0ccb5ee6d882ee3605ff47745c6467b}{val}}
+\item 
+bool \mbox{\hyperlink{struct_node_afed74a540bb26efc1e86a904a558a564}{marked}}
+\item 
+bool \mbox{\hyperlink{struct_node_a721f684c8b460af541f4bc9ae01723a0}{crossed}}
+\item 
+int \mbox{\hyperlink{struct_node_af1d3cff2e4538e23400e260bae3dadad}{row}}
+\item 
+int \mbox{\hyperlink{struct_node_afb52e720f5f0c483db5861f9e42e924e}{col}}
+\item 
+int \mbox{\hyperlink{struct_node_a08e8d060037cc9af8f6bc97414f91df3}{number\+Of\+Crossing\+Times}}
+\item 
+int \mbox{\hyperlink{struct_node_ade48b1fad3ec226741ffd91cbcdb96f5}{value\+\_\+affected\+\_\+by\+\_\+max\+\_\+element}}
+\item 
+struct \mbox{\hyperlink{struct_node}{Node}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{struct_node_aa162dd1e0693188a22b1f13b9a2a0ef0}{next}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+node structure for linked list 
+
+\doxysubsection{Field Documentation}
+\Hypertarget{struct_node_afb52e720f5f0c483db5861f9e42e924e}\label{struct_node_afb52e720f5f0c483db5861f9e42e924e} 
+\index{Node@{Node}!col@{col}}
+\index{col@{col}!Node@{Node}}
+\doxysubsubsection{\texorpdfstring{col}{col}}
+{\footnotesize\ttfamily int col}
+
+column matrix index \Hypertarget{struct_node_a721f684c8b460af541f4bc9ae01723a0}\label{struct_node_a721f684c8b460af541f4bc9ae01723a0} 
+\index{Node@{Node}!crossed@{crossed}}
+\index{crossed@{crossed}!Node@{Node}}
+\doxysubsubsection{\texorpdfstring{crossed}{crossed}}
+{\footnotesize\ttfamily bool crossed}
+
+for crossing lines \Hypertarget{struct_node_afed74a540bb26efc1e86a904a558a564}\label{struct_node_afed74a540bb26efc1e86a904a558a564} 
+\index{Node@{Node}!marked@{marked}}
+\index{marked@{marked}!Node@{Node}}
+\doxysubsubsection{\texorpdfstring{marked}{marked}}
+{\footnotesize\ttfamily bool marked}
+
+for marking zeros, following the hungarian algorithm for assignment problems \Hypertarget{struct_node_aa162dd1e0693188a22b1f13b9a2a0ef0}\label{struct_node_aa162dd1e0693188a22b1f13b9a2a0ef0} 
+\index{Node@{Node}!next@{next}}
+\index{next@{next}!Node@{Node}}
+\doxysubsubsection{\texorpdfstring{next}{next}}
+{\footnotesize\ttfamily struct \mbox{\hyperlink{struct_node}{Node}}\texorpdfstring{$\ast$}{*} next}
+
+pointer to next node \Hypertarget{struct_node_a08e8d060037cc9af8f6bc97414f91df3}\label{struct_node_a08e8d060037cc9af8f6bc97414f91df3} 
+\index{Node@{Node}!numberOfCrossingTimes@{numberOfCrossingTimes}}
+\index{numberOfCrossingTimes@{numberOfCrossingTimes}!Node@{Node}}
+\doxysubsubsection{\texorpdfstring{numberOfCrossingTimes}{numberOfCrossingTimes}}
+{\footnotesize\ttfamily int number\+Of\+Crossing\+Times}
+
+this serves to check which nodes are crossed twice, indicating an intersection \Hypertarget{struct_node_af1d3cff2e4538e23400e260bae3dadad}\label{struct_node_af1d3cff2e4538e23400e260bae3dadad} 
+\index{Node@{Node}!row@{row}}
+\index{row@{row}!Node@{Node}}
+\doxysubsubsection{\texorpdfstring{row}{row}}
+{\footnotesize\ttfamily int row}
+
+row matrix index \Hypertarget{struct_node_aa0ccb5ee6d882ee3605ff47745c6467b}\label{struct_node_aa0ccb5ee6d882ee3605ff47745c6467b} 
+\index{Node@{Node}!val@{val}}
+\index{val@{val}!Node@{Node}}
+\doxysubsubsection{\texorpdfstring{val}{val}}
+{\footnotesize\ttfamily int val}
+
+original value \Hypertarget{struct_node_ade48b1fad3ec226741ffd91cbcdb96f5}\label{struct_node_ade48b1fad3ec226741ffd91cbcdb96f5} 
+\index{Node@{Node}!value\_affected\_by\_max\_element@{value\_affected\_by\_max\_element}}
+\index{value\_affected\_by\_max\_element@{value\_affected\_by\_max\_element}!Node@{Node}}
+\doxysubsubsection{\texorpdfstring{value\_affected\_by\_max\_element}{value\_affected\_by\_max\_element}}
+{\footnotesize\ttfamily int value\+\_\+affected\+\_\+by\+\_\+max\+\_\+element}
+
+value that will be altered in order to find the max sum 
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{main_8c}{main.\+c}}\end{DoxyCompactItemize}

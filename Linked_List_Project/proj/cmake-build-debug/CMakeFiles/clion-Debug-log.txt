@@ -1,0 +1,24 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S "/Users/dianasilva/Documents/universidade/IPCA/first year/second semester/estruturas de dados/Linked_List_Project/proj" -B "/Users/dianasilva/Documents/universidade/IPCA/first year/second semester/estruturas de dados/Linked_List_Project/proj/cmake-build-debug"
+CMake Warning at /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin-Initialize.cmake:308 (message):
+  Ignoring CMAKE_OSX_SYSROOT value:
+
+   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk
+
+  because the directory does not exist.
+Call Stack (most recent call first):
+  /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake:34 (include)
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring done (0.5s)
+CMake Error at CMakeLists.txt:6 (add_executable):
+  Cannot find source file:
+
+    cmake-build-debug/hungarian_algorithm_explained.h
+
+
+CMake Error at CMakeLists.txt:6 (add_executable):
+  No SOURCES given to target: proj
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
